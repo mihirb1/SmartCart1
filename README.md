@@ -57,3 +57,22 @@ SmartCart1 is a data scraping module designed to extract grocery product informa
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
+```
+## **How to Run**
+1. Clone the respository
+   git clone https://github.com/mihirb1/SmartCart1.git
+2. Install dependencies
+   pip install -r requirements.txt
+3. Run the scraping script
+   python scraper.py
+4. The scraped data will be saved in amazon_products1.csv.
+5. (Optional) To save data into an SQL database
+   Run the script insert_into_sql with the appropriate file.
+
+## **Contributors**
+- Mihir Borkar
+- Gaurav Kriplani
+- James Donckels
+
+## **License**
+This project is licensed under the MIT License. See LICENSE for more details.
